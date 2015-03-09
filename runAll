@@ -2,7 +2,7 @@ gcc -o basic increment.c
 
 gcc -o forked increment2.c
 
-gcc -o threaded threadedIncrement.c -lpthread
+gcc -o threaded increment3.c -lpthread
 
 echo Running basic increment took
 time ./basic
